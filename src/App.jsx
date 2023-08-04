@@ -4,7 +4,9 @@ import { useState } from 'react'
 //import viteLogo from '/vite.svg'
 import './App.css'
 
+//clearing out the old div
 function App() {
+ // creating new variables and using a function to tell React how I want the variables updated and what information I want to be shown when it is clicked
     const [puppies, setPuppies] = useState(puppyList);
     const [featPupId, setFeatPupId] = useState(null);
   
