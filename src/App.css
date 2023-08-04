@@ -1,4 +1,4 @@
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,16 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+/*styles for the entire pplication */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #242424;
+  color: rgba(171, 73, 236, 0.87);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
