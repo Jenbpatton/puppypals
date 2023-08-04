@@ -1,9 +1,12 @@
 /*styles for the entire pplication */
-.App {
-  color: rgba(171, 73, 236, 0.87);
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+body {
   background: rgb(3,13,20);
   background: -moz-linear-gradient(-45deg, rgb(3,13,20) 0%, rgb(123,114,129) 50%, rgb(6,22,32) 100%);
   background: -webkit-linear-gradient(-45deg, rgb(3,13,20) 0%, rgb(123,114,129) 50%, rgb(6,22,32) 100%);
   background: linear-gradient(135deg, rgb(3,13,20) 0%, rgb(123,114,129) 50%, rgb(6,22,32) 100%);
+}
+.App {
+  color: rgba(171, 73, 236, 0.87);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
 }
