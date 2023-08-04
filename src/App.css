@@ -5,7 +5,10 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #242424;
   color: rgba(171, 73, 236, 0.87);
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background: #030D14;
+background: -moz-linear-gradient(-45deg, #030D14 0%, #7B7281 50%, #061620 100%);
+background: -webkit-linear-gradient(-45deg, #030D14 0%, #7B7281 50%, #061620 100%);
+background: linear-gradient(135deg, #030D14 0%, #7B7281 50%, #061620 100%);
 }
