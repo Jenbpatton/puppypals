@@ -8,5 +8,50 @@ body {
 .App {
   color: rgba(171, 73, 236, 0.87);
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
+.puppy-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.puppy-list p {
+  cursor: pointer;
+  margin: 10px;
+  font-size: 18px;
+  color: #646cff;
+}
+
+.puppy-list p.active {
+  color: #535bf2;
+}
+
+/* Styles for the puppy details */
+.puppy-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #646cff;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.puppy-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.puppy-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.puppy-details li {
+  margin: 5px 0;
+}
+
